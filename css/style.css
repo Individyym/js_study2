@@ -1,0 +1,18 @@
+@import url('reset.css');
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.btn-cart {
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    text-align: left;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
