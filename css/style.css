@@ -1,12 +1,48 @@
 @import url('reset.css');
+@font-face { 
+	font-family: 'BEBAS';
+	src: url('../fonts/BEBAS/BEBAS___-webfont.eot');
+	src: url('../fonts/BEBAS/BEBAS___-webfont.eot?iefix') format('eot'),
+	     url('../fonts/BEBAS/BEBAS___-webfont.woff') format('woff'),
+	     url('../fonts/BEBAS/BEBAS___-webfont.ttf') format('truetype'),
+         url('../fonts/BEBAS/BEBAS___-webfont.svg#webfont') format('svg');
+         font-weight: normal;
+         font-style: normal;
+}
 
 header {
     height: 10vh;
     display: flex;
     align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 23%, rgba(0,212,255,1) 100%); 
 }
 .btn-cart {
     margin: 0 auto;
+    background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.btn-cart:hover {
+    background-color:#5cbf2a;
+}
+
+main {
+    height: 80vh;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
 
 .products {
@@ -14,5 +50,12 @@ header {
     text-align: left;
     align-items: baseline;
     justify-content: space-around;
+    padding: 50px;
 }
+
+.product-item {
+    font-family: 'BEBAS';
+    text-align: center;
+}
+
 
